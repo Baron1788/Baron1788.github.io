@@ -1,0 +1,426 @@
+/*nav*/
+.bg-light {
+  background-color: #ffffff !important;
+  opacity: 80%;
+}
+
+/*上方選單*/
+
+.logo,
+.menu-wrapper {
+  display: inline-block;
+  vertical-align: middle;
+}
+.logo {
+  margin: 0px 100px;
+}
+.logo img {
+  width: 200px;
+}
+.menu-wrapper {
+  text-align: center;
+}
+.menu {
+  display: inline-block;
+  vertical-align: middle;
+  width: 150px;
+  text-align: center;
+}
+.menu a {
+  text-decoration: none;
+  color: black;
+  font-family: Source Han Serif SC;
+  font-style: Regular;
+  font-size: 22px;
+}
+.yellow-text {
+  color: #ae9141;
+  font-family: Athelas;
+  font-style: Regular;
+  font-size: 22px;
+}
+.navigation {
+  border-top: 20px solid #543822;
+}
+/*上方選單*/
+.navbar {
+  border-top: 20px solid #543822;
+  background-color: #ffffff;
+}
+.navbar p {
+  text-align: center;
+}
+.container-fluid {
+  padding-left: 5%;
+}
+.collapse {
+  padding-left: 13%;
+}
+.navbar-brand img {
+  width: 230px;
+}
+.nav-item p {
+  padding-right: 20px;
+}
+.logo,
+.menu-wrapper {
+  display: inline-block;
+  vertical-align: middle;
+}
+.logo {
+  margin: 0px 100px;
+}
+.logo img {
+  width: 200px;
+}
+.menu-wrapper {
+  width: 0px 800px;
+}
+.menu {
+  display: inline-block;
+  vertical-align: middle;
+  width: 150px;
+  text-align: center;
+}
+.collapse a {
+  text-decoration: none;
+  color: black;
+  font-family: Source Han Serif SC;
+  font-style: Regular;
+  font-size: 22px;
+}
+.yellow-text {
+  color: #ae9141;
+  font-family: Athelas;
+  font-style: Regular;
+  font-size: 22px;
+}
+.navigation {
+  border-top: 20px solid #543822;
+}
+.carousel-control-next,
+.carousel-control-prev {
+  width: auto;
+  margin: 20% 10px;
+}
+.carousel-control-next,
+.carousel-control-prev {
+  width: auto;
+  margin: 20% 10px;
+}
+
+/*上方資訊輪播*/
+
+/*熱銷推薦*/
+.title1 {
+  border-left: 13px solid #ae9141;
+  font-family: Source Han Serif SC;
+  font-style: bold;
+  font-size: 36px;
+  display: inline-block;
+  vertical-align: center;
+  padding: 0px 20px;
+  margin-bottom: 80px;
+}
+.title1-yellow {
+  color: #ae9141;
+  font-family: Athelas;
+  font-style: Regular;
+  font-size: 36px;
+  display: inline-block;
+  vertical-align: center;
+  margin-left: 25px;
+}
+.text {
+  font-family: Source Han Serif SC;
+  font-style: reguler;
+  font-size: 18px;
+  width: 830px;
+  line-height: 30px;
+}
+
+.carousel-slide {
+  width: 435px;
+  vertical-align: center;
+}
+.carousel-slide img {
+  width: 435px;
+  vertical-align: center;
+}
+
+.bestseller-wrapper {
+  margin: 150px 100px;
+}
+.swiper-mySwiper {
+  width: 315px;
+}
+
+/*調茶大師*/
+.masters {
+  margin: 150px 100px;
+}
+.introduce {
+  font-family: Source Han Serif SC;
+  font-style: medium;
+  font-size: 22px;
+  padding-bottom: 30px;
+}
+
+.master-pic {
+  width: 315px;
+  height: 470px;
+}
+.master-pic img {
+  width: 100%;
+}
+
+.row {
+  padding-bottom: 30px;
+}
+
+.master-text {
+  padding-top: 30%;
+  padding-right: 45%;
+}
+
+.master-text p {
+  font-family: Source Han Serif SC;
+  font-size: 16px;
+  line-height: 25px;
+}
+/*swiper*/
+
+.swiper-slide img {
+  width: 85%;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  color: #dddedd;
+}
+.swiper-pagination-bullet-active:root {
+  --swiper-theme-color: #ae9141 !important;
+}
+.th1 {
+  background-image: url(../image/皇家伯爵茶2g*50.png);
+}
+.th2 {
+  background-image: url(../image/極品錫蘭茶2g*25.png);
+}
+.th3 {
+  background-image: url(../image/英倫早餐茶2g*25.png);
+}
+.th4 {
+  background-image: url(../image/菊香薄荷茶2g*25.png);
+}
+.th5 {
+  background-image: url(../image/英倫早餐茶2g*100.png);
+}
+.th6 {
+  background-image: url(../image/仕女伯爵茶2g*25.png);
+}
+.th7 {
+  background-image: url(../image/皇家伯爵茶2g*100.png);
+}
+.th8 {
+  background-image: url(../image/純情木思皇家禮盒.png);
+}
+.hide-block {
+  background-color: rgba(57, 56, 56, 0.75);
+  position: absolute;
+  height: 315px;
+  width: 315px;
+  border-radius: 16px;
+  top: 0;
+  left: 0;
+  display: none;
+}
+.hide-block button {
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: solid #dddedd;
+  background-color: #ede49c;
+  color: #543822;
+  padding: 15px 20px;
+  border-radius: 12px;
+  border-style: none;
+}
+.hide-block button:hover {
+  background-color: #ae9141;
+  color: #ffffff;
+  border: 1.5px solid #ffffff;
+  box-shadow: 0 0 2em #ede49c;
+}
+.button-zone {
+  padding: 0px 30%;
+  padding-top: 40%;
+}
+.hide-block p {
+  font-family: Source Han Serif SC;
+  color: #ffffff;
+  text-align: left;
+  padding-top: 45px;
+  padding-left: 45px;
+  font-size: 22px;
+  vertical-align: middle;
+  line-height: 1%;
+}
+
+.img:hover .hide-block {
+  display: block;
+  animation: slideUp 1s;
+}
+
+.swiper-slide .img {
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 315px;
+  align-items: center;
+  position: relative;
+}
+@keyframes slideUp {
+  0% {
+    top: 315px;
+    height: 0px;
+  }
+  100% {
+    top: 0px;
+    height: 315px;
+  }
+}
+/*下方資訊*/
+.row-up {
+  background-color: #2d2d2d;
+  border-bottom: 3px solid #ffffff;
+  padding: 10px 100px;
+}
+.row-up a {
+  text-decoration: none;
+}
+.row-up a img {
+  width: 12%;
+  padding-right: 5px;
+}
+
+.down {
+  background-color: #2d2d2d;
+  border-bottom: 6px solid #2d2d2d;
+  border-top: 30px solid #2d2d2d;
+  padding: 0px 100px;
+}
+.down p {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Source Han Serif SC;
+  padding: 10px 0px;
+}
+.down a {
+  text-decoration: none;
+}
+.down a p {
+  font-size: 16px;
+}
+.en-t {
+  font-family: Athelas;
+}
+
+.company p {
+  text-align: center;
+  font-size: 14px;
+}
+.down .row {
+  padding-bottom: 70px;
+}
+.phone_down {
+  display: none;
+}
+.master-phone {
+  display: none;
+}
+.phone-swiper {
+  display: none;
+}
+/*手機版*/
+@media (max-width: 767px) {
+  .navbar {
+    --bs-navbar-toggler-border-color: rgb(255, 255, 255);
+  }
+  .collapse {
+    padding-left: 0%;
+  }
+  .nav-item {
+    padding: 8px 0px;
+  }
+  .carousel {
+    display: none;
+  }
+  .bestseller p {
+    display: block;
+  }
+  .title1-yellow {
+    margin: 0%;
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+  .title1 {
+    margin-bottom: 0px;
+  }
+  .hide-block {
+    width: 315px;
+  }
+  .masters.title1,
+  .masters .title1-yellow {
+    margin-bottom: 0px;
+    display: block;
+  }
+  .masters p {
+    width: 62%;
+  }
+  .text {
+    padding: 2% 0px;
+  }
+  .master-desk {
+    display: none;
+  }
+  .master-phone {
+    display: block;
+  }
+  .master-phone .master-text {
+    padding-top: 10px;
+    padding-bottom: 80px;
+    padding-right: 40%;
+  }
+  .row-up .col-md-3 a {
+    padding-right: 15%;
+  }
+  .row-up .col-md-3 a img {
+    width: 8%;
+  }
+  .inf .col-md-3 {
+    padding-bottom: 5%;
+  }
+  .inf {
+    display: none;
+  }
+  .phone_down {
+    display: inline-block;
+    vertical-align: top;
+  }
+  .down-wrapper {
+    width: 100%;
+  }
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: none;
+  }
+  .mySwiper {
+    display: none;
+  }
+  .phone-swiper {
+    display: block;
+  }
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: block;
+  }
+}
